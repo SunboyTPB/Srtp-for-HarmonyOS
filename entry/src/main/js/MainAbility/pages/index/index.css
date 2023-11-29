@@ -1,30 +1,120 @@
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     left: 0px;
     top: 0px;
     width: 100%;
     height: 100%;
+    background-color: #693D3D;
 }
 
-.title {
-    font-size: 60px;
-    text-align: center;
+.signupmessage {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left: 80%;
+    top: 6%;
+}
+.qianbiimage {
+    height: 700px;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+.columndiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcomemessage {
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.logintab {
+    color: white;
+    position: absolute;
+    top: 30%;
+}
+
+.tabpage {
+    background-color: white;
+    color: black;
+    height: 100%;
     width: 100%;
-    height: 40%;
-    margin: 10px;
+    border-radius: 51px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 30px;
+}
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.confirmbutton {
+    font-size: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 100px;
+    background: linear-gradient(88deg, #693D3D 44%, #A76853 118%);
+    box-shadow: 0px 5px 15px 0px;
 }
 
-@media screen and (orientation: landscape) {
-    .title {
-        font-size: 60px;
-    }
+.password {
+    margin-top: 30px;
+}
+
+.linktext {
+    font-size: 15px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    width: 100%;
 }
 
 @media screen and (device-type: tablet) and (orientation: landscape) {
-    .title {
-        font-size: 100px;
+    .welcomemessage {
+        font-size: 36px;
+    }
+    
+    .tabpage {
+        font-size: 15px;
+        padding-top: 40px;
+        margin-top: 20px;
+    }
+
+    .confirmbutton {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 15px;
+    }
+    
+    .button {
+        margin-top: 20px;
+    }
+
+    .textfield {
+        font-size: 15px;
+        height: 30px;
+    }
+    
+    .tabtext {
+        font-size: 15px;
     }
 }

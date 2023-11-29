@@ -1,5 +1,53 @@
 <div class="container">
-    <text class="title">
-        {{ $t('strings.hello') }} {{ title }}
-    </text>
+    <image src="../media/qianbi.png" class="qianbiimage"/>
+    <div class="welcomemessage">
+        <text>
+            {{welcome}}
+        </text>
+    </div>
+    <div class="signupmessage">
+        <text>注册账号</text>
+    </div>
+    <div>
+        <tabs class="logintab">
+            <tab-bar>
+                <text class="tabtext">密码登录</text>
+                <text class="tabtext">验证码登录</text>
+            </tab-bar>
+            <tab-content class="tabpage">
+                <div class="columndiv">
+                    <div class="account columndiv">
+                        <text>账号</text>
+                        <input class="textfield" type="text" enterkeytype="go" />
+                    </div>
+                    <div class="password columndiv">
+                        <text>密码</text>
+                        <input class="textfield" type="password" enterkeytype="go"/>
+                    </div>
+                    <div class="linktext">
+                        <text>密码丢失？找回账号</text>
+                    </div>
+                    <div class="button">
+                        <button class="confirmbutton">立即登录</button>
+                    </div>
+                </div>
+                <div class="columndiv">
+                    <div class="account columndiv">
+                        <text>手机号</text>
+                        <input class="textfield" type="text" enterkeytype="go" />
+                    </div>
+                    <div class="password columndiv">
+                        <text>验证码</text>
+
+                    </div>
+                    <div class="linktext">
+                        <text>未收到验证码？</text>
+                    </div>
+                    <div class="button">
+                        <button class="confirmbutton">立即登录</button>
+                    </div>
+                </div>
+            </tab-content>
+        </tabs>
+    </div>
 </div>

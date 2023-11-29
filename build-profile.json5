@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\pakki\\.ohos\\config\\auto_debug_Srtp-for-HarmonyOS_com.example.srtphmos_2850086000535452498.cer",
+          "storePassword": "0000001BF06A227502BB6BDFBA09F7952C934B775168095581609A718AF2014113BF3278E6F219B22CCF35",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B78626ECD532991477A970EA4923F849355B2BC43AA4DE8481C41CB4851626B99EA007AC6E83D6F",
+          "profile": "C:\\Users\\pakki\\.ohos\\config\\auto_debug_Srtp-for-HarmonyOS_com.example.srtphmos_2850086000535452498.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\pakki\\.ohos\\config\\auto_debug_Srtp-for-HarmonyOS_com.example.srtphmos_2850086000535452498.p12"
+        }
+      }
+    ],
     "compileSdkVersion": 9,
     "compatibleSdkVersion": 9,
     "products": [

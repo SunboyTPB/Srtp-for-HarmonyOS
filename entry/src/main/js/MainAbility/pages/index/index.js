@@ -1,6 +1,7 @@
 export default {
     data: {
-        title: ""
+        title: "",
+        welcome: "欢迎登录"
     },
     onInit() {
         this.title = this.$t('strings.world');
