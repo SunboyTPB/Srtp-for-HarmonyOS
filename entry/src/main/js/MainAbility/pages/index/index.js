@@ -1,3 +1,4 @@
+import Router from '@system.router';
 export default {
     data: {
         title: "",
@@ -5,6 +6,11 @@ export default {
     },
     onInit() {
         this.title = this.$t('strings.world');
+    },
+    Signup() {
+        Router.push({
+            uri: "pages/signup/signup"
+        })
     }
 }
 

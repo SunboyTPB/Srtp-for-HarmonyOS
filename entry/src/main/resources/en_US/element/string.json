@@ -11,6 +11,14 @@
     {
       "name": "MainAbility_label",
       "value": "SRTP Unnamed App"
+    },
+    {
+      "name": "signup_desc",
+      "value": "description"
+    },
+    {
+      "name": "signup_label",
+      "value": "label"
     }
   ]
 }

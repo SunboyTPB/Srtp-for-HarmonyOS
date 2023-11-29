@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #693D3D;
+}
+
+.qianbiimage {
+    height: 700px;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+
+.signupmessage {
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    position: absolute;
+    top: 8%;
+    left: 10%;
+}

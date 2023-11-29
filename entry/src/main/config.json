@@ -1,7 +1,7 @@
 {
   "app": {
-    "bundleName": "com.example.srtphmos",
     "vendor": "example",
+    "bundleName": "com.example.srtphmos",
     "version": {
       "code": 1000000,
       "name": "1.0.0"
@@ -9,19 +9,11 @@
   },
   "deviceConfig": {},
   "module": {
-    "package": "com.example.srtphmos",
-    "name": ".entry",
     "mainAbility": ".MainAbility",
     "deviceType": [
       "phone",
       "tablet"
     ],
-    "distro": {
-      "deliveryWithInstall": true,
-      "moduleName": "entry",
-      "moduleType": "entry",
-      "installationFree": false
-    },
     "abilities": [
       {
         "skills": [
@@ -35,24 +27,55 @@
           }
         ],
         "orientation": "unspecified",
-        "formsEnabled": false,
+        "visible": true,
+        "srcPath": "MainAbility",
         "name": ".MainAbility",
         "srcLanguage": "js",
-        "srcPath": "MainAbility",
         "icon": "$media:icon",
         "description": "$string:MainAbility_desc",
+        "formsEnabled": false,
         "label": "$string:MainAbility_label",
         "type": "page",
-        "visible": true,
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "srcPath": "signup",
+        "name": ".signup",
+        "srcLanguage": "js",
+        "icon": "$media:icon",
+        "description": "$string:signup_desc",
+        "formsEnabled": false,
+        "label": "$string:signup_label",
+        "type": "page",
         "launchType": "standard"
       }
     ],
+    "distro": {
+      "moduleType": "entry",
+      "installationFree": false,
+      "deliveryWithInstall": true,
+      "moduleName": "entry"
+    },
+    "package": "com.example.srtphmos",
+    "name": ".entry",
     "js": [
+      {
+        "pages": [
+          "pages/index/index",
+          "pages/signup/signup"
+        ],
+        "name": ".MainAbility",
+        "window": {
+          "designWidth": 720,
+          "autoDesignWidth": false
+        }
+      },
       {
         "pages": [
           "pages/index/index"
         ],
-        "name": ".MainAbility",
+        "name": ".signup",
         "window": {
           "designWidth": 720,
           "autoDesignWidth": false

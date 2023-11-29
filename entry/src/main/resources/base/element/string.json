@@ -11,6 +11,14 @@
     {
       "name": "MainAbility_label",
       "value": "label"
+    },
+    {
+      "name": "signup_desc",
+      "value": "description"
+    },
+    {
+      "name": "signup_label",
+      "value": "label"
     }
   ]
 }

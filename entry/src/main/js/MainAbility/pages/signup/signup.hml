@@ -1,0 +1,6 @@
+<div class="container">
+    <image src="../media/qianbi.png" class="qianbiimage"/>
+    <div class="signupmessage">
+        <text>注册</text>
+    </div>
+</div>

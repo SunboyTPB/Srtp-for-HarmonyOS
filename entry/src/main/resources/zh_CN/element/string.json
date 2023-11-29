@@ -11,6 +11,14 @@
     {
       "name": "MainAbility_label",
       "value": "SRTP未命名软件"
+    },
+    {
+      "name": "signup_desc",
+      "value": "description"
+    },
+    {
+      "name": "signup_label",
+      "value": "label"
     }
   ]
 }
