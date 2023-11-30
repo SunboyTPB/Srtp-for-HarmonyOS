@@ -63,7 +63,8 @@
       {
         "pages": [
           "pages/index/index",
-          "pages/signup/signup"
+          "pages/signup/signup",
+          "pages/forget/forget"
         ],
         "name": ".MainAbility",
         "window": {

@@ -1,6 +1,42 @@
 <div class="container">
-    <image src="../media/qianbi.png" class="qianbiimage"/>
+    <image src="../../media/qianbi.png" class="qianbiimage"/>
+    <div class="back" onclick="back">
+        <image src="../../media/ic_public_back.png" class="backimage" />
+    </div>
     <div class="signupmessage">
         <text>注册</text>
+    </div>
+    <div class="signupwindow columndiv">
+        <div class="message">
+            <text>{{message}}</text>
+        </div>
+        <div class="phonenumber columndiv">
+            <text>手机号</text>
+            <input />
+        </div>
+        <div class="validate columndiv">
+            <text>验证码</text>
+            <div>
+                <input />
+                <button class="validatebutton">获取验证码</button>
+            </div>
+        </div>
+        <div class="linktext">
+            <text>未收到验证码？</text>
+        </div>
+        <div class="password columndiv">
+            <text>密码设置</text>
+            <input type="password" />
+        </div>
+        <div class="confirmpassword columndiv">
+            <text>密码确认</text>
+            <input type="password" />
+        </div>
+        <div class="button">
+            <button class="confirmbutton">立即注册</button>
+        </div>
+        <div class="contentmessage">
+            <text>联系客服：公众号</text>
+        </div>
     </div>
 </div>

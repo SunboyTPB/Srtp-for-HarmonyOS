@@ -6,9 +6,9 @@
         "type": "HarmonyOS",
         "material": {
           "certpath": "C:\\Users\\pakki\\.ohos\\config\\auto_debug_Srtp-for-HarmonyOS_com.example.srtphmos_2850086000535452498.cer",
-          "storePassword": "0000001BF06A227502BB6BDFBA09F7952C934B775168095581609A718AF2014113BF3278E6F219B22CCF35",
+          "storePassword": "0000001B76441AA7525539D7C6C10C767423E3F7386B4C3E885E9DBD30F80A478449B5CFA7F8CF9063B28A",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001B78626ECD532991477A970EA4923F849355B2BC43AA4DE8481C41CB4851626B99EA007AC6E83D6F",
+          "keyPassword": "0000001B4EA2E442EA2423B3C960FEE0CCDCD05D1DE0D871143223F0B89B565CFD528DEAA3BD4D06D137FF",
           "profile": "C:\\Users\\pakki\\.ohos\\config\\auto_debug_Srtp-for-HarmonyOS_com.example.srtphmos_2850086000535452498.p7b",
           "signAlg": "SHA256withECDSA",
           "storeFile": "C:\\Users\\pakki\\.ohos\\config\\auto_debug_Srtp-for-HarmonyOS_com.example.srtphmos_2850086000535452498.p12"

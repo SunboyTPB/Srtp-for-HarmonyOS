@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Siyuansong;
+    src: url("/fonts/SourceHanSerifCN-Regular.ttf");
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -6,6 +11,7 @@
     width: 100%;
     height: 100%;
     background-color: #693D3D;
+    font-family: Siyuansong;
 }
 
 .signupmessage {

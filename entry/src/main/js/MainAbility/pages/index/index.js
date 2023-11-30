@@ -11,6 +11,11 @@ export default {
         Router.push({
             uri: "pages/signup/signup"
         })
+    },
+    forget() {
+        Router.push({
+            uri: "pages/forget/forget"
+        })
     }
 }
 
